@@ -44,26 +44,26 @@ public class BinaryOp {
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(data), data));
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(n), n));
 		System.out.println("----------------------------------------------------");
-		System.out.println(String.format("%32s %d", Integer.toBinaryString(data&n), data&n));
+		System.out.println(String.format("%32s %d", Integer.toBinaryString(data&n), data&n)); //결과값 100 (data)
 		
 		System.out.println("\n5. |는 bit or 연산");
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(data), data));
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(n), n));
 		System.out.println("----------------------------------------------------");
-		System.out.println(String.format("%32s %d", Integer.toBinaryString(data|n), data|n));
+		System.out.println(String.format("%32s %d", Integer.toBinaryString(data|n), data|n)); //결과값 -1 (2진수 비트 모두 1)
 		
 		n = 0;
 		System.out.println("6. &는 bit and 연산");
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(data), data));
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(n), n));
 		System.out.println("----------------------------------------------------");
-		System.out.println(String.format("%32s %d", Integer.toBinaryString(data&n), data&n));
+		System.out.println(String.format("%32s %d", Integer.toBinaryString(data&n), data&n)); //결과값? 0
 		
 		System.out.println("\n7. |는 bit or 연산");
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(data), data));
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(n), n));
 		System.out.println("----------------------------------------------------");
-		System.out.println(String.format("%32s %d", Integer.toBinaryString(data|n), data|n));
+		System.out.println(String.format("%32s %d", Integer.toBinaryString(data|n), data|n)); //결과값? 100(data)
 		
 		
 		

@@ -8,7 +8,7 @@ public class C47_MemberTest {
 		//Member[] members = new Member[10];
 		ArrayList<Member> list = new ArrayList<>();	//리스트에 저장되는 것은 객체의 참조값.
 
-		list.add(new Member("모모", 27));	//새로운 객체 생성하고 참조갑을 리스트에 추가
+		list.add(new Member("모모", 27));	//새로운 객체 생성하고 참조값을 리스트에 추가
 		Member member = new Member("다현", 26);
 		list.add(member);
 		list.add(new Member("나나", 20));
